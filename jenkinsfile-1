@@ -1,0 +1,7 @@
+pipeline 
+{
+stage('git')
+{
+git https://github.com/priyamoorthy2801/jpetstores.git
+}
+}
